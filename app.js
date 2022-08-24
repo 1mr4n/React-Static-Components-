@@ -65,5 +65,3 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App />, document.querySelector('main'));
-
-//run with: http-server -o
