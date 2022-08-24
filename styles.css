@@ -1,0 +1,114 @@
+/*Do not exceed 110% view*/
+/*Using borders in lieu of spaces*/
+body {
+    background-color: #6a6dba;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: #7e7e8f;
+    width: 20%;
+    height: 300px;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#top{
+    background-color: #7e7e8f;
+    /*border: solid;*/
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#reviewBox{
+    border:solid;
+    position:relative;
+    right: 100px;
+}
+
+#avgBox{
+    border:solid;
+}
+
+#sentimentBox{
+    border:solid;
+    position:relative;
+    left: 100px;
+    
+}
+
+#large{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 60vh;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#large div {
+    background-color: #54565c;
+    width: 80%;
+    height: 40vh;
+    position:relative;
+    bottom:50px;
+    right: -75px;
+}
+
+#num{
+    font-size:xx-large;
+}
+
+#senNum{
+    font-size:xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    bottom:25px;
+    right: -100px;
+}
+
+#large num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#word{
+    font-family:'Times New Roman', Times, serif;
+    /* #word excludes website visitor's font which is defined in #large */
+}
+
+aside {
+    border: solid;
+    /*position: relative;*/
+    width: 300px;
+    background-color: #c0c3cf;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
