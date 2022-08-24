@@ -1,5 +1,3 @@
-/*Do not exceed 110% view*/
-/*Using borders in lieu of spaces*/
 body {
     background-color: #6a6dba;
     display: flex;
@@ -90,10 +88,9 @@ section {
     align-items: center;
 }
 
-
+/* #word excludes website visitor's font which is defined in #large */
 #word{
     font-family:'Times New Roman', Times, serif;
-    /* #word excludes website visitor's font which is defined in #large */
 }
 
 aside {
